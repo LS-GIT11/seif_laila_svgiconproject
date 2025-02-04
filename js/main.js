@@ -1,6 +1,9 @@
 console.log("Connected JS for Dr.Nut SVG page")
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 const allIcons = document.querySelectorAll('svg')
 const almondIcon = document.querySelector('#almond-icon')
 const hazelIcon = document.querySelector('#hazel-icon')
@@ -17,3 +20,8 @@ function LogIt () {
 almondIcon.addEventListener('click', almondIcon
 
 )
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
