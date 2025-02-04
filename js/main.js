@@ -14,7 +14,3 @@ function LogIt () {
 
 
 almondIcon.addEventListener('click', almondIcon
-
-)
-
-
