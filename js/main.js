@@ -13,4 +13,4 @@ function LogIt () {
 };
 
 
-almondIcon.addEventListener('click', almondIcon
+almondIcon.addEventListener('click', almondIcon)
