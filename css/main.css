@@ -8,3 +8,71 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+svg {
+    width: 60%;
+    max-width: 250px;
+    overflow: visible;
+    margin-bottom: 30px;
+}
+
+/*classes/ids for my animations --- I am going to add them into <g>, some may be for the entire svg, some will be different parts of the svg*/
+
+#charge {
+    filter: brightness(1.5);
+    filter: invert(50%);
+}
+
+#punch {
+    animation:cubic-bezier(1, 0, 0, 1)
+}
+
+#hue-shift {
+    filter: hue-rotate(50%);
+}
+
+.shift {
+    transform: rotateX('5px') center;
+}
+
+.shift-o {
+    transform: rotateX('-5px') center;
+}
+
+@keyframes shakeIt {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-7px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(7px);
+    }
+}
+
+/*ids for each svg, it is on the <svg>*/
+
+#almond{
+
+}
+
+#hazel{
+
+}
+
+#pist{
+
+}
+
+#maca{
+
+}
+
+#almo-v{
+
+}
+
+#coco{
+
+}
