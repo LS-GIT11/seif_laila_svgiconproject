@@ -42,39 +42,39 @@ Eventually, I saw my mistake was at console.log("#almond" + this.id); I added th
 /*I then did the same for the other icons... but after pistachio the rest didnt work. I just added }; at the end of one to try and see if it just needed an end, but that was an error... turns out... my id was not #pista... it was #pist. then it worked.*/
 
 
+//hazelnut
 const hazelIcon = document.querySelector('#hazel')
 function logIt() {
     console.log(this.id)
 }
 hazelIcon.addEventListener('click', logIt);
 
-
+//pistachio
 const pistaIcon = document.querySelector('#pist')
 function logIt() {
     console.log(this.id)
 }
 pistaIcon.addEventListener('click', logIt);
 
-
+//macadamia
 const macaIcon = document.querySelector('#maca')
 function logIt() {
     console.log(this.id)
 }
 macaIcon.addEventListener('click', logIt);
 
-
+//almond vegan
 const almondVIcon = document.querySelector('#almo-v')
 function logIt() {
     console.log(this.id)
 }
 almondVIcon.addEventListener('click', logIt);
 
-
+//coconut
 const cocoIcon = document.querySelector('#coco')
 function logIt() {
     console.log(this.id)
 }
 cocoIcon.addEventListener('click', logIt);
 
-// 
-
+// I do not want to get this wrong, after I was done this I saw no javascript for any animation for svg. I thought we had to do that... that is why I looked for online resources, ai, and example file (though i did not understand it at all at first) from class.
