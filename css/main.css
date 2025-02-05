@@ -46,24 +46,27 @@ li {
 }
 
 /*classes/ids for my animations --- I am going to add them into <g>, some may be for the entire svg, some will be different parts of the svg*/
-
+#charge{}
 #charge:hover {
     filter: brightness(1.5);
     filter: invert(50%);
 }
 
+#punch{}
 #punch:hover {
     animation:cubic-bezier(1, 0, 0, 1)
 }
 
+#hue-shift{}
 #hue-shift:hover {
     filter: hue-rotate(50%);
 }
 
+.shift{}
 .shift:hover {
     transform: rotateX('5px') center;
 }
-
+.shift-o{}
 .shift-o:hover {
     transform: rotateX('-5px') center;
 }
@@ -81,7 +84,8 @@ li {
     }
 }
 
-#shake shakeIt {
+#shake{}
+#shake:hover shakeIt {
     animation: shakeIt 0.2s ease-in-out;
 }
 
